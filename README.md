@@ -1,4 +1,18 @@
 # Elsticsearch
+#先安装JAVa 环境 
+wget https://repo.huaweicloud.com/java/jdk/8u201-b09/jdk-8u201-linux-x64.tar.gz
+tar -zxvf jdk-8u201-linux-x64.tar.gz 
+mv jdk1.8.0_201 /usr/local/jdk1.8/
+vim /etc/profile
+最后一行添加如下配置
+export JAVA_HOME=/usr/local/jdk1.8
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
+更新配置 source /etc/profile
+3.查看是否安装成功
+java -version
+
 Elsticsearch
 #  启动 
 sh ./bin/elasticsearch 
