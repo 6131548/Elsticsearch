@@ -15,6 +15,11 @@
 
 Elsticsearch
 #  启动 
+elsticsearch 默认不能同ROOt用户启动
+先创建一个新的用户 比如yh 然后给这个用户当前文件目录的可执行权限
+adduser yh 
+# 设置密码 passwd yh
+chown -R yh:yh elasticsearch-6.4.1
 sh ./bin/elasticsearch 
 修改外部可访问
 
