@@ -61,4 +61,17 @@ elasticsearch.xml 的配置 xpack.ml.enabled: false
 # node.master: false
 # discovery.zen.ping.unicast.hosts: ["127.0.0.1"]
 
+查询（复合查询）
+{
+"query"{
+    "match":{"age": 20}
+}
+}
+
+
+{
+  "query":{
+    "match_phrase":{"interests": "youyong shufa"}
+  }
+}
 
