@@ -44,10 +44,10 @@ vim /etc/sysconfig/iptables
 service iptables restart
 
 elasticsearch.xml 的配置 xpack.ml.enabled: false
-network.host: 0.0.0.0
-bootstrap.memory_lock: false
-bootstrap.system_call_filter: false
-http.cors.enabled: true
-http.cors.allow-origin: "*"
+ network.host: 0.0.0.0
+ bootstrap.memory_lock: false
+ bootstrap.system_call_filter: false
+ http.cors.enabled: true
+ http.cors.allow-origin: "*"
 
 
