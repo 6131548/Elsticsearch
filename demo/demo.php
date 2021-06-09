@@ -1,3 +1,5 @@
+
+// $client =ClientBuilder::create()->setHosts(["47.106.128.153:9200"])->build();
 $client = ClientBuilder::create()->build();
         for ($i=0; $i < 10; $i++) { 
             $params = [
