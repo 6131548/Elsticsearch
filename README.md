@@ -50,16 +50,15 @@ elasticsearch.xml 的配置 xpack.ml.enabled: false
 # http.cors.enabled: true
 # http.cors.allow-origin: "*"
 
-elasticsearch 集群部署
-cluster.name: swool
-node.name: swool_1
-node.master: true
+# elasticsearch 集群部署
+# cluster.name: swool
+# node.name: swool_1
+# node.master: true
 
 //一下是分机器的设置
-cluster.name: swool
-node.name: swool_2
-node.master: false
-
-discovery.zen.ping.unicast.hosts: ["127.0.0.1"]
+# cluster.name: swool
+# node.name: swool_2
+# node.master: false
+# discovery.zen.ping.unicast.hosts: ["127.0.0.1"]
 
 
